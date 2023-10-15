@@ -1,4 +1,4 @@
-import React from 'react'
+
 import reccGroup from '../assets/reccGroups.png'
 
 import leisure from '../assets/leisure.png'

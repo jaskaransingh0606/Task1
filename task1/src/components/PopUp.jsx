@@ -1,4 +1,6 @@
-import React,{useState}from 'react'
+import {useState}from 'react'
+
+import PropTypes from 'prop-types';
 
 import SignInPopUp from './SignInPopUp'
 
@@ -10,15 +12,17 @@ import cross from '../assets/Cross.png'
 
 function PopUp(props) {
 
+  PopUp.propTypes = {
+    togglePopUp: PropTypes.func.isRequired,
+  };
+
   const [showSignIn, setShowSignIn] = useState(false);
 
   const toggleSignIn = () => {
     setShowSignIn(!showSignIn);
   }
 
-  if(toggleSignIn){
-
-  }
+  
   return (
     <>
       <div className='bg-popupBg z-10 right-0 left-0 top-0 bottom-0 fixed'></div>
@@ -33,7 +37,7 @@ function PopUp(props) {
 
 
         <div className='flex justify-center content-center items-center bg-greenBg w-736 h-12'>
-          <p className='text-green font-light me-2 ms-2'>Let's learn, share & inspire each other with our passion for computer engineering. Sign up now </p>
+          <p className='text-green font-light me-2 ms-2'>Let&apos;s learn&lsquo; share & inspire each other with our passion for computer engineering. Sign up now </p>
         </div>
 
         <div className='flex flex-row justify-between align-center content-center'>

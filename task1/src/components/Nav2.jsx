@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import joinGroup from '../assets/JoinGroup.png'
 import writePost from '../assets/WritePost.png'
