@@ -39,15 +39,15 @@ function Posts() {
 
 
     return (
-        <div className='flex flex-row mr-40 ml-40 justify-between lg:justify-center kt:mr-0 kt:ml:0 kt:w-full'>
+        <div className='flex flex-row mr-40 ml-40 justify-between '>
 
-            <div className='flex flex-col mt-7 w-692  space-y-2'>
+            <div className='flex flex-col mt-7 w-692  space-y-2 lg:justify-center kt:mr-0 kt:ml:0 kt:w-full'>
 
                 <div className='h-472 flex flex-col space-y-4 kt:mr-0 kt:ml:0 kt:w-full'>
-                    <div><img src={nature}></img></div>
+                    <div className='kt:w-full sm:w-full'><img src={nature}></img></div>
                     <div className='ms-2 me-2'><img src={article}></img></div>
                     <div className='flex flex-row  content-center ms-2 me-2'>
-                        <div><p className='text-black w-600 font-semibold'>What if famous brands had regular fonts? <br />Meet RegulaBrands!</p></div>
+                        <div><p className='text-black w-600 font-semibold kt:w-400 sm:w-300 '>What if famous brands had regular fonts? <br />Meet RegulaBrands!</p></div>
                         <div><img src={more}></img></div>
                     </div>
                     <div className='ms-2 me-2'><p className='text-black'>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p></div>
@@ -65,10 +65,10 @@ function Posts() {
 
 
                 <div className='h-472 flex flex-col space-y-4 kt:mr-0 kt:ml:0 kt:w-full'>
-                    <div><img src={wall}></img></div>
+                    <div className='kt:w-full sm:w-full'><img src={wall}></img></div>
                     <div className='ms-2 me-2'><img src={education}></img></div>
                     <div className='flex flex-row items-center content-center ms-2 me-2'>
-                        <div><p className='text-black w-600 font-semibold'>Tax Benefits for Investment under National Pension <br /> Scheme launched by Government </p></div>
+                        <div><p className='text-black w-600 font-semibold kt:w-400 sm:text-sm'>Tax Benefits for Investment under National Pension <br /> Scheme launched by Government </p></div>
                         <div><img src={more}></img></div>
                     </div>
                     <div className='ms-2 me-2'><p className='text-black'>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p></div>
@@ -85,10 +85,10 @@ function Posts() {
                 </div>
 
                 <div className='h-472 flex flex-col space-y-4 kt:mr-0 kt:ml:0 kt:w-full'>
-                    <div><img src={car}></img></div>
+                    <div className='kt:w-full sm:w-full'><img src={car}></img></div>
                     <div className='ms-2 me-2'><img src={meetup}></img></div>
                     <div className='flex flex-row items-center content-center ms-2 me-2'>
-                        <div><p className='text-black w-600 font-semibold'>Finance & Investment Elite Social Mixer @Lujiazui </p></div>
+                        <div><p className='text-black w-600 font-semibold kt:w-400 sm:text-sm'>Finance & Investment Elite Social Mixer @Lujiazui </p></div>
                         <div><img src={more}></img></div>
                     </div>
                     <div className='ms-2 me-2'><img src={dateLocation}></img></div>
@@ -107,9 +107,9 @@ function Posts() {
 
                 <div className='h-472 flex flex-col space-y-4 kt:mr-0 kt:ml:0 kt:w-full'>
 
-                    <div className='ms-2 me-2'><img src={job}></img></div>
+                    <div className='ms-2 me-2 kt:w-full sm:w-full'><img src={job}></img></div>
                     <div className='flex flex-row items-center content-center ms-2 me-2'>
-                        <div><p className='text-black w-600 font-semibold'>Software Developer </p></div>
+                        <div><p className='text-black w-600 font-semibold kt:w-400 sm:text-sm'>Software Developer </p></div>
                         <div><img src={more}></img></div>
                     </div>
                     <div className='ms-2 me-2'><img src={infoLoc}></img></div>
