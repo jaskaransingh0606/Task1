@@ -1,4 +1,4 @@
-import React from 'react'
+
 import pen from '../assets/pen.png'
 
 function Pen() {
