@@ -30,7 +30,7 @@ function PopUp(props) {
        
       
 
-      {showSignIn?null:<button className='z-30 mt-32 mr-80' onClick={props.togglePopUp}><img src={cross}></img></button>}
+     {showSignIn?null:<button className='z-30 mt-32 mr-80  bg-black' onClick={props.togglePopUp}><img src={cross}></img></button>}
       {showSignIn ? <SignInPopUp toggleSignIn={toggleSignIn} /> :
 
       <div className='w-736 h-513 flex flex-col space-y-4 fixed inset-y-1/2 ml-80 -translate-y-2/4 z-20 bg-white' >
